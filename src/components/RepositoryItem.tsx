@@ -1,4 +1,13 @@
-export function RepositoryItem(props) {
+interface RepositoryItemProps {
+  repository: {
+    name: string
+    description: string
+    html_url: string
+  }
+}
+
+
+export function RepositoryItem(props: RepositoryItemProps) {
   {/* todas as propriedades da chamada da funcao no react estao no props*/ }
   return (
     <li>

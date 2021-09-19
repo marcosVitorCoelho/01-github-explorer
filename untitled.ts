@@ -1,3 +1,6 @@
+// Um pouco do TYPESCRIPT
+
+
 type User = {
   name: string
   email: string

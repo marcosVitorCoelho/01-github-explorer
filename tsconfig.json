@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], /* Bibliotecas para trabalhar com HTML */
+    "jsx": "react-jsx", /* Utilizando JSX */                                
+    "moduleResolution": "node",                       
+    "resolveJsonModule": true,                        
+    "allowJs": true, /* Permite arquivos JS e TS */                                  
+    "noEmit": true,     
+    "isolatedModules": true,                              
+    "allowSyntheticDefaultImports": true,       
+    "esModuleInterop": true,                            
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true, /* Adiciona exceptions para erros */                                      
+    "skipLibCheck": true                                 
+  },
+
+  "include": ["src"] /* Especificando para o TS que todo o codigo esta dentro de "src" */
+}
